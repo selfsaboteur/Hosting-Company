@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LemonWares</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-container">
+                <a href=""><img src="images/head/logo.png" alt="LemonWares"></a>
+            </div>
+
+            <div class="nav-container">
+                <a href="" class="nav-item">Our Services</a>
+                <ul class="middle-nav-list">
+                    <li><a href="" class="nav-item">About</a></li>
+                    <li><a href="" class="nav-item">Blog&News</a></li>
+                    <li><a href="" class="nav-item">Contact</a></li>
+                </ul>
+                <ul class="right-nav-list">
+                    <li><a href="" class="nav-item">Account</a></li>
+                    <li>
+                        <img src="images/icons/phone.png" alt="phone-icon">
+                        <a href="" class="nav-item">+2349067322844</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="open-close-menu">
+            <button class="hamburger-btn" id="hb-menu-btn"><img src="images/icons/menu-hamburger.png" class="hamburger-icon" alt=""></button>
+            <button class="cross-btn" id="close-menu-btn"><img src="images/icons/close-cross.png" class="cross-icon" alt=""></button>
+        </div>
+
+        <div class="hero slider-container">
+            <div class="slider-btn-container">
+                <div class="slider-sections">
+
+                    <button class="display-first btn pr-nav-btn" onclick="currentDiv(1)">Hosting</button>
+                    <button class="display-second btn pr-nav-btn" onclick="currentDiv(2)">Domain</button>
+                    <button class="display-third btn pr-nav-btn" onclick="currentDiv(3)">SEO</button>
+                    <button class="display-fourth btn pr-nav-btn" onclick="currentDiv(4)">Email</button>
+
+                </div>
+            </div>
+
+            <div class="slider-item my-slides">
+
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h1 class="slide-head">Premium Web Hosting for Your Website</h1>
+                        <p class="slide-p">Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
+                        <div class="slide-anc">
+                            <a href="">Create an Account</a>
+                            <a href="">Choose your plan</a>
+                        </div>
+                    </div>
+                    <div class="slide-img">
+                        <img src="images/head/hero-img.png" class="main-img" alt="woman in a chair with a laptop">
+                        <img src="images/icons/triangle.png" class="triangle triangle-1" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-2" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-3" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h1 class="slide-head">Lorem ipsum dolor sit amet</h1>
+                        <p class="slide-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem sint necessitatibus ratione, pariatur temporibus saepe minima</p>
+                        <div class="slide-anc">
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <div class="slide-img">
+                        <img src="" class="main-img" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-1" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-2" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-3" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h1 class="slide-head">Lorem ipsum dolor sit amet</h1>
+                        <p class="slide-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem sint necessitatibus ratione, pariatur temporibus saepe minima</p>
+                        <div class="slide-anc">
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <div class="slide-img">
+                        <img src="" class="main-img" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-1" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-2" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-3" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h1 class="slide-head">Lorem ipsum dolor sit amet</h1>
+                        <p class="slide-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem sint necessitatibus ratione, pariatur temporibus saepe minima</p>
+                        <div class="slide-anc">
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <div class="slide-img">
+                        <img src="" class="main-img" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-1" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-2" alt="">
+                        <img src="images/icons/triangle.png" class="triangle triangle-3" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER-->
+
+    <div class="section-3">
+        <div class="s3-text">
+            <h2 class="s3-header">True Cloud Web Hosting</h2>
+            <p class="s3-context">
+                True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable.
+            </p>
+        </div>
+
+        <div class="s3-partners">
+            <img src="images/companies/cPanel_orange_RGB 1.png" class="partner-logo" alt="">
+            <img src="images/companies/secured-by-Imunify360-green 1.png" class="partner-logo" alt="">
+            <img src="images/companies/litespeed-logo 1.png" class="partner-logo" alt="">
+            <img src="images/companies/softaculous.png" class="partner-logo" alt="">
+            <img src="images/companies/wordpress.png" class="partner-logo" alt="">
+            <img src="images/companies/cloudflare.png" class="partner-logo" alt="">
+        </div>
+
+        <div class="s3-adv">
+            <div class="s3-adv-section">
+                <img src="images/icons/time.png" class="s3-adv-section-logo" alt="">
+                <h3 class="s3-adv-section-head">99.9% Uptime</h3>
+                <p class="s3-adv-section-context">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+            </div>
+            <div class="s3-adv-section">
+                <img src="images/icons/cloud.png" class="s3-adv-section-logo" alt="">
+                <h3 class="s3-adv-section-head">Blazing Fast Web Hosting</h3>
+                <p class="s3-adv-section-context">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+            </div>
+            <div class="s3-adv-section">
+                <img src="images/icons/battery.png" class="s3-adv-section-logo" alt="">
+                <h3 class="s3-adv-section-head">Free SSL Certificates</h3>
+                <p class="s3-adv-section-context">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+            </div>
+            <div class="s3-adv-section">
+                <img src="images/icons/support.png" class="s3-adv-section-logo" alt="">
+                <h3 class="s3-adv-section-head">24x7 Friendly Support</h3>
+                <p class="s3-adv-section-context">We Keep Your Web build Online 24x7x365. Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.</p>
+            </div>
+        </div>
+    </div>
+    <!--SECTION 3-->
+
+    <div class="section-4">
+        <div class="s4-group-1">
+            <h2 class="s4-group-1-head">Ready to get started with Lemon Wares?</h2>
+
+            <p class="s4-group-1-context">Choose the package that suits you</p>
+
+            <div class="switch-toggle">
+                <div class="toggle-left">Monthly</div>
+                <div class="toggle-itself">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+                <div class="toggle-right">Yearly <span class="discount-tag">20%  discount</span></div>
+            </div>
+
+            <div class="tariff-plan">
+                <div class="slider-btn-container tariff-slider">
+                    <div class="slider-sections tariff-slider-sections">
+
+                        <button class="display-first  pr-nav-btn tariff-btn" onclick="currentDiv(1)">Basic</button>
+                        <button class="display-second  pr-nav-btn tariff-btn" onclick="currentDiv(2)">Premium</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="s4-group-2">
+            <div class="slider-container">
+
+                <div class="slider-item tariff-slide-item">
+
+                    <div class="tariff-price">
+                        <h3 class="tariff-head">Starter</h3>
+                        <p class="tariff-context">with all your customers via all conversation channels in one central dashboard.</p>
+                        <h2 class="price">$2.80 <span class="price-term">Per month</span></h2>
+                        <a href="" class="choose-plan">Choose this Plan</a>
+                        <ul class="plan-benefits">
+                            <li class="plan-benefit"><span> 2GB SSD</span>
+                            </li>
+                            <li class="plan-benefit"><span>10GB Bandwidth</span></li>
+                            <li class="plan-benefit"><span>15 Email Accounts</span></li>
+                            <li class="plan-benefit"><span>Unlimited Database</span></li>
+                            <li class="plan-benefit"><span>4 Subdomains</span></li>
+                            <li class="plan-benefit"><span>1 Parked Domain</span></li>
+                            <li class="plan-benefit"><span>2 Websites</span></li>
+                            <li class="plan-benefit"><span>Free SSL</span></li>
+                            <li class="plan-benefit"><span>Softaculous</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tariff-price">
+                        <h3 class="tariff-head">Standard</h3>
+                        <p class="tariff-context">with all your customers via all conversation channels in one central dashboard.</p>
+                        <h2 class="price">$4.20 <span class="price-term">Per month</span></h2>
+                        <a href="" class="choose-plan">Choose this Plan</a>
+                        <ul class="plan-benefits">
+                            <li class="plan-benefit"><span> 2GB SSD</span>
+                            </li>
+                            <li class="plan-benefit"><span>10GB Bandwidth</span></li>
+                            <li class="plan-benefit"><span>15 Email Accounts</span></li>
+                            <li class="plan-benefit"><span>Unlimited Database</span></li>
+                            <li class="plan-benefit"><span>4 Subdomains</span></li>
+                            <li class="plan-benefit"><span>1 Parked Domain</span></li>
+                            <li class="plan-benefit"><span>2 Websites</span></li>
+                            <li class="plan-benefit"><span>Free SSL</span></li>
+                            <li class="plan-benefit"><span>Softaculous</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tariff-price">
+                        <h3 class="tariff-head">Suprem</h3>
+                        <p class="tariff-context">with all your customers via all conversation channels in one central dashboard.</p>
+                        <h2 class="price">$7.00 <span class="price-term">Per month</span></h2>
+                        <a href="" class="choose-plan">Choose this Plan</a>
+                        <ul class="plan-benefits">
+                            <li class="plan-benefit"><span> 2GB SSD</span>
+                            </li>
+                            <li class="plan-benefit"><span>10GB Bandwidth</span></li>
+                            <li class="plan-benefit"><span>15 Email Accounts</span></li>
+                            <li class="plan-benefit"><span>Unlimited Database</span></li>
+                            <li class="plan-benefit"><span>4 Subdomains</span></li>
+                            <li class="plan-benefit"><span>1 Parked Domain</span></li>
+                            <li class="plan-benefit"><span>2 Websites</span></li>
+                            <li class="plan-benefit"><span>Free SSL</span></li>
+                            <li class="plan-benefit"><span>Softaculous</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="slider-item tariff-slide-item">
+
+                    <div class="tariff-price">
+                        <h3 class="tariff-head">Starter +1</h3>
+                        <p class="tariff-context">with all your customers via all conversation channels in one central dashboard.</p>
+                        <h2 class="price">$2.80 <span class="price-term">Per month</span></h2>
+                        <a href="" class="choose-plan">Choose this Plan</a>
+                        <ul class="plan-benefits">
+                            <li class="plan-benefit"><span> 2GB SSD</span>
+                            </li>
+                            <li class="plan-benefit"><span>10GB Bandwidth</span></li>
+                            <li class="plan-benefit"><span>15 Email Accounts</span></li>
+                            <li class="plan-benefit"><span>Unlimited Database</span></li>
+                            <li class="plan-benefit"><span>4 Subdomains</span></li>
+                            <li class="plan-benefit"><span>1 Parked Domain</span></li>
+                            <li class="plan-benefit"><span>2 Websites</span></li>
+                            <li class="plan-benefit"><span>Free SSL</span></li>
+                            <li class="plan-benefit"><span>Softaculous</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tariff-price">
+                        <h3 class="tariff-head">Standard +1</h3>
+                        <p class="tariff-context">with all your customers via all conversation channels in one central dashboard.</p>
+                        <h2 class="price">$4.20 <span class="price-term">Per month</span></h2>
+                        <a href="" class="choose-plan">Choose this Plan</a>
+                        <ul class="plan-benefits">
+                            <li class="plan-benefit"><span> 2GB SSD</span>
+                            </li>
+                            <li class="plan-benefit"><span>10GB Bandwidth</span></li>
+                            <li class="plan-benefit"><span>15 Email Accounts</span></li>
+                            <li class="plan-benefit"><span>Unlimited Database</span></li>
+                            <li class="plan-benefit"><span>4 Subdomains</span></li>
+                            <li class="plan-benefit"><span>1 Parked Domain</span></li>
+                            <li class="plan-benefit"><span>2 Websites</span></li>
+                            <li class="plan-benefit"><span>Free SSL</span></li>
+                            <li class="plan-benefit"><span>Softaculous</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tariff-price">
+                        <h3 class="tariff-head">Suprem +1</h3>
+                        <p class="tariff-context">with all your customers via all conversation channels in one central dashboard.</p>
+                        <h2 class="price">$7.00 <span class="price-term">Per month</span></h2>
+                        <a href="" class="choose-plan">Choose this Plan</a>
+                        <ul class="plan-benefits">
+                            <li class="plan-benefit"><span> 2GB SSD</span>
+                            </li>
+                            <li class="plan-benefit"><span>10GB Bandwidth</span></li>
+                            <li class="plan-benefit"><span>15 Email Accounts</span></li>
+                            <li class="plan-benefit"><span>Unlimited Database</span></li>
+                            <li class="plan-benefit"><span>4 Subdomains</span></li>
+                            <li class="plan-benefit"><span>1 Parked Domain</span></li>
+                            <li class="plan-benefit"><span>2 Websites</span></li>
+                            <li class="plan-benefit"><span>Free SSL</span></li>
+                            <li class="plan-benefit"><span>Softaculous</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--SECTION 4-->
+
+    <div class="section-5">
+        <img src="images/icons/quote-mark.png" class="quote-img" alt="quote mark">
+
+        <div class="s5-group1">
+            <div class="s5-group1-section s5-group1-section1">
+                <h2 class="s5-group1-section1-head">Real Stories from Real Customers</h2>
+                <p class="s5-group1-section1-subhead">Get inspired by these stories.</p>
+            </div>
+
+            <div class="s5-group1-section s5-group1-section2">
+                <img src="images/companies/customers/Jerry-Piping-bw-oyl3forlrwur6778abi56lm69f24r157w64c9y75z4 2.png" class="s5-group1-section-logo" alt="">
+                <p class="section-5-quote"><img src="images/icons/quote-mark-blue.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</p>
+                <h4 class="quote-author">Jane Cooper</h4>
+                <p class="quote-author-position">CEO, JPNL</p>
+            </div>
+
+            <div class="s5-group1-section s5-group1-section3">
+                <img src="images/companies/customers/Crypto-Learn-Invest-bw-oyl3g9g1y9n29md6xkfxpgebbw87gdfbb0h0u1ci68 1.png" class="s5-group1-section-logo" alt="">
+                <p class="section-5-quote"><img src="images/icons/quote-mark-blue.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem</p>
+                <h4 class="quote-author">Floyd Miles</h4>
+                <p class="quote-author-position">Vice President, CLI</p>
+            </div>
+
+            <div class="s5-group1-section s5-group1-section4">
+                <img src="images/companies/customers/LeeveOn-Branding-bw-oyl3fl090kplvrcow9vmwmkbvvknw8qajniecucqo0 2.png" class="s5-group1-section-logo" alt="">
+                <p class="section-5-quote"><img src="images/icons/quote-mark-blue.png" alt=""> LemonWares saved our time in Hosting my company page.</p>
+                <h4 class="quote-author">Kristin Watson</h4>
+                <p class="quote-author-position">Co-Founder, LeeveOn Branding</p>
+            </div>
+        </div>
+
+        <div class="s5-group2">
+            <div class="s5-group2-left">
+                <h2 class="s5-group2-head">We serve over 100 Nigerian Websites</h2>
+                <p class="s5-group2-subhead">Connect LemonWares with your favourite tools that you use daily and keep things on track.</p>
+            </div>
+
+            <div class="s5-group2-right">
+                <img src="images/companies/customers/Jerry-Piping-bw-oyl3forlrwur6778abi56lm69f24r157w64c9y75z4 12.png" class="s5-group2-logos" alt="">
+                <img src="images/companies/customers/Korane-Scents-bw-oyl3fj4kmwn18jff792drn1ep3txguitve7feafj0g 1.png" class="s5-group2-logos" alt="">
+                <img src="images/companies/customers/Nadine-Ghaida-bw-oyl3fly37eqw7dbbqsa9h4bsh9g13xu0vs5vu4bchs 1.png" class="s5-group2-logos" alt="">
+                <img src="images/companies/customers/LeeveOn-Branding-bw-oyl3fl090kplvrcow9vmwmkbvvknw8qajniecucqo0 122.png" class="s5-group2-logos" alt="">
+                <img src="images/companies/customers/Jrango-Glasses-bw-oyl3fi6qg2lqwxgscqnr759y3pyk95f3j9jxx0gx6o 1.png" class="s5-group2-logos" alt="">
+                <img src="images/companies/customers/Crypto-Learn-Invest-bw-oyl3g9g1y9n29md6xkfxpgebbw87gdfbb0h0u1ci68 1.png" class="s5-group2-logos" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!--SECTION 5-->
+
+    <div class="section-6">
+        <img src="images/icons/triangle.png" class="triangle triangle-1 triangle-1-s6" alt="">
+        <img src="images/icons/triangle.png" class="triangle triangle-2 triangle-2-s6" alt="">
+        <img src="images/icons/triangle.png" class="triangle triangle-3 triangle-3-s6" alt="">
+        <div class="section-6-inner">
+            <h1 class="s6-header">We're here to make your website awesome.</h1>
+            <a href="" class="contact-link"><img src="images/icons/whatsapp.png" alt="">Get in touch with us</a>
+        </div>
+    </div>
+    <!--SECTION 6-->
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-section footer-section-1">
+                <img src="images/head/logo_white.png" class="logo-img-white" alt="">
+                <p class="footer-section-1-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem
+                </p>
+            </div>
+
+            <div class="footer-section footer-section-2">
+                <h4 class="footer-section-head">Service</h4>
+                <ul class="footer-section-links">
+                    <li class="footer-section-link"><a href="">Domain</a></li>
+                    <li class="footer-section-link"><a href="">Shared Hosting</a></li>
+                    <li class="footer-section-link"><a href="">Cloud Hosting</a></li>
+                    <li class="footer-section-link"><a href="">Private Hosting</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-section-3">
+                <h4 class="footer-section-head">Hosting</h4>
+                <ul class="footer-section-links">
+                    <li class="footer-section-link"><a href="">Cheap Hosting</a></li>
+                    <li class="footer-section-link"><a href="">Hosting Wordpress</a></li>
+                    <li class="footer-section-link"><a href="">Email Hosting</a></li>
+                    <li class="footer-section-link"><a href="">Hosting Unlimited</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-section-4">
+                <h4 class="footer-section-head">Company</h4>
+                <ul class="footer-section-links">
+                    <li class="footer-section-link"><a href="">About</a></li>
+                    <li class="footer-section-link"><a href="">Career</a></li>
+                    <li class="footer-section-link"><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-section-5">
+                <h4 class="footer-section-head">Help</h4>
+                <ul class="footer-section-links">
+                    <li class="footer-section-link"><a href="">FAQ</a></li>
+                    <li class="footer-section-link"><a href="">Help support</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
